@@ -1,0 +1,25 @@
+name: EcoAPI
+main: EcoAPI\Eco
+author: KhanggTrann
+api: 3
+version: 0.0.1
+#Yêu cầu : Không đổi tên tác giả.
+#Lưu ý : Plugin k hỗ trợ api 4
+
+commands:
+ mymoney:
+  description: Kiểm tra số xu của bạn
+  permission: mymoney.khanggtrann
+  default: true
+ setmoney:
+  description: Chỉnh sửa số xu của người chơi khác
+  permission: setmoney.khanggtrann
+  default: op
+ pay:
+  description: Trả xu cho người chơi khác
+  permission: paymoney.khanggtrann
+  default: true
+  
+#Plugin được code riêng thủ công và không đạo nhái code từ onebone
+#Nếu plugin có lỗi, hãy liên hệ facebook.com/khanggtran.deptrai để được hướng dẫn
+#Plugin hỗ trợ ngôn ngữ tiếng Việt
